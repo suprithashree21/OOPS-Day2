@@ -33,7 +33,7 @@ class CurrentAccount(BankAccount):
         else:
             print("Overdraft Limit Exceeded!")
 print("\nSavings Account")
-s1 = SavingsAccount("Bharath", 10000, 5)
+s1 = SavingsAccount("Supritha", 10000, 5)
 s1.deposit(2000)
 s1.add_interest()
 s1.withdraw(3000)
